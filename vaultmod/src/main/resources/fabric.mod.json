@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "vaultautoclick",
+  "version": "${version}",
+  "name": "Vault Auto Click",
+  "description": "Rechtsklickt automatisch auf den Tresor, sobald ein Heavy Core oder Dreizack angezeigt wird.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.tresor.vaultautoclick.VaultAutoClick"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
